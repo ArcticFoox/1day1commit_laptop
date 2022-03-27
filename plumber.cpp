@@ -13,13 +13,15 @@ int main(){
 
     for(int i = 1; i <= 1000; i++){
         if(arr[i]){
-            for(int j = 0; j < l; j++){
-                if(arr[i+j]){
-                    index = i+j;
-                }
-            }
+            // for(int j = 0; j < l; j++){
+            //     if(arr[i+j]){
+            //         index = i+j;
+            //     }
+            // }
+            // 이부분을 수행할 필요가 없다
             cnt++;
-            i = index;
+            //i = index;
+            i += l - 1;
         }
     }
 

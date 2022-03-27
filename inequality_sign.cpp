@@ -4,7 +4,6 @@
 #include<string>
 using namespace std;
 
-//int num[11];
 bool check[11];
 char sign[11];
 int n;
